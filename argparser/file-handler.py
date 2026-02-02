@@ -1,0 +1,15 @@
+#f=open("My information.txt","w")
+#f.write("My name is D. VenkateshI and  am from India.I am pursuing have completed my Bachelor’s degree in Computer Science Engineering.I have a strong interest in programming and problem-solving. I have knowledge of Python, C, SQL, and basics of Data Structures and Algorithms. I have also worked on projects related to web applications and machine learning, which helped me understand real-world problem solving.")
+#f.close()
+f=open("My information.txt","a")
+f.write("\n I am learning devops")
+f.close()
+
+#f=open("My information.txt","r")
+#student=f.read()
+#print(student)
+
+f=open("My information.txt","r")
+student=f.readlines()
+print(student[1])
+f.close()
